@@ -1,24 +1,21 @@
-## Structure
+# Contributing to the scientific thesis template
 
-1. Every example has to be in its own folder. The name of the folder should
-   tell the reader what the example shows.
-2. Contents of that folder:
-    1. Every example has to have a `Makefile` which contains all the commands
-       necessary to compile the document.
-    2. The main TeX file should have the same name as the folder.
-    3. Every example has to have a `README.md`. For images / graphic examples,
-       this should include the rendered image. For documents, there should be
-       some example text explaining what it is about.
-3. Use spaces for indenting.
-4. Don't have trailing spaces.
+We welcome contributions to this template and encourage to create a fork, clone, **create a new branch** (such as `fix-for-issue-121`), **work on the new branch — not master**, and create a pull request.
+Be sure to create a **separate branch** for each improvement you implement.
+Take a look at GitHub's excellent [help documentation] for a detailed explanation and the explanation of [Feature Branch Workflow](https://de.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow) for the idea behind this kind of development.
+
+Alternatively, you can just use the edit button if a single file in the web browser.
+Steps described at https://github.com/JabRef/help.jabref.org/blob/gh-pages/CONTRIBUTING.md.
+Keep in mind that these steps are wrote for <https://help.jabref.org>, but they are also fully applicable for this repository.
+
+## Rights
+
+By contributing, you agree that your contribution is made available under CC0, but that the current maintainer of this work may change the license as it fits.
 
 
-## Commit messages
+## Create a pull request
 
-1. Separate subject from body with a blank line
-2. Limit the subject line to 50 characters
-3. Capitalize the subject line
-4. Do not end the subject line with a period
-5. Use the imperative mood in the subject line
-6. Wrap the body at 72 characters
-7. Use the body to explain what and why vs. how
+Create a pull request on GitHub.
+For text inspirations, consider [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request).
+
+You can add the prefix `[WIP]` to indicate that the pull request is not yet complete, but you want to discuss something or inform about the current state of affairs.
